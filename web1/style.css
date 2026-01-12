@@ -1,0 +1,419 @@
+*{
+    margin: 0%;
+    font-family:  cursive;
+    /* font-family: geneva; */
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+#container{
+
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+#header{
+    height: 100px;
+    background-color: white;
+    top: 0px;
+    position: sticky;
+}
+#logo{
+    height: 90px;
+    width: 190px;
+
+}
+#address{
+    height: 90%;
+    width: 200px;
+    float: right;
+    margin-top: 10px;
+}
+#nav{
+    height: 50px;
+    background-color: lightskyblue;
+    border-radius: 0px;
+    top: 95px;
+    position: sticky;
+     box-shadow: 0px 2px 10px 1px white;
+    z-index: 1;
+}
+#nav ul{
+    list-style: none;
+    padding: 11px;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a:hover{
+    color: blueviolet;
+}
+#nav ul li a{
+        font-size: 20px;
+    font-style: italic;
+    color: aliceblue;
+    text-decoration: none ;
+    margin-left: 80px;
+}
+#nav ul li ul{
+    display: none;
+}
+#nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    background-color:lightblue;
+    /* margin-top: -3px; */
+    width: 120px;
+    margin-left: 320px;
+    border-radius: 20px 20px 20px 20px;
+} 
+#section{
+    height: 260px;
+    /* background-color: #234567;
+    color:white; */
+    background-color: white;
+    padding: 40px;
+    border-radius: 0px;
+}
+#section p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 24px;
+    font-family: geneva;
+}
+
+#section1{
+    height: 550px;
+    background-color: bisque;
+}
+#banner{
+    height: 550px;
+    width: 100%;
+    border-radius: 0px;
+}
+#section2{
+    height: 400px;
+    background-color: brown;
+}
+#box1{
+    height: 300px;
+    width: 190px;
+    background-color: aquamarine;
+    float: left;
+    margin: 70px;
+    font-family: geneva;
+
+}
+#boxImage{
+    height: 180px;
+    background-color: blue;
+    overflow: hidden;
+}
+#boxContent{
+    height: 120px;
+    text-align: justify;
+    padding: 7px;
+    background-color: white;
+     font-family: geneva;
+
+}
+#boxImg{
+    height: 200px;
+    width: 100%;
+}
+#boxContent button{
+    background-color: #234567;
+    color:white;
+    height: 30px;
+    width: 140px;
+    margin: 10px;
+    border-width: 0px;
+}
+#boxImg:hover{
+    transition: 2s;
+    transform: scale(1.5);
+    /* transform: rotate(360deg); */
+}
+#section3{
+    height: 400px;
+    background-color: rgb(210, 220, 229);
+    padding: 40px;
+}
+
+#boximg1{
+    height: 250px;
+    width: 250px;
+   /* background-color: brown; */
+    float: left;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+#image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#boxContent1{
+    height: 270px;
+    width: 770px;
+    /*background-color: brown;*/
+    float: left;
+    margin: 70px;
+    padding: 20px;
+    font-size: large;
+    font-family: geneva;
+    text-align: justify;
+    line-height: 30px;
+    color: blueviolet;
+    
+}
+#contact{
+    height:400px;
+    padding: 40px;
+    background-color:lightseagreen;
+}
+#contactBox{
+    height: 300px;
+    width: 200px;
+    margin: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+    padding: 10px;
+    background-color: white;   
+}
+#contactMBox{
+    height: 320px;
+    width: 310px;
+    margin: 10px;
+    margin-top: 30px;
+    float: left;
+}
+iframe{
+    height: 320px;
+    width: 310px;
+}
+#contactBox ul li a{
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 18px;
+    color:black;
+}
+#contact h1{
+    color:white;
+}
+#footer{
+    padding: 10px;
+    font-size: 18px;
+}
+/* ******************* meadia Query */
+/*  ******************************** */
+@media screen and (max-width:400px) {
+    *{
+    margin: 0%;
+    font-family:  cursive;
+    /* font-family: geneva; */
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+#container{
+
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+#header{
+    height: 100px;
+    background-color: white;
+    top: 0px;
+    position: sticky;
+}
+#logo{
+    height: 90px;
+    width: 190px;
+
+}
+#address{
+    height: 90%;
+    width: 200px;
+    float: right;
+    margin-top: 10px;
+}
+#nav{
+    height: 50px;
+    background-color: lightskyblue;
+    border-radius: 0px;
+    top: 95px;
+    position: sticky;
+     box-shadow: 0px 2px 10px 1px white;
+    z-index: 1;
+}
+#nav ul{
+    list-style: none;
+    padding: 11px;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a:hover{
+    color: blueviolet;
+}
+#nav ul li a{
+        font-size: 20px;
+    font-style: italic;
+    color: aliceblue;
+    text-decoration: none ;
+    margin-left: 80px;
+}
+#nav ul li ul{
+    display: none;
+}
+#nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    background-color:lightblue;
+    /* margin-top: -3px; */
+    width: 120px;
+    margin-left: 320px;
+    border-radius: 20px 20px 20px 20px;
+} 
+#section{
+    height: 260px;
+    /* background-color: #234567;
+    color:white; */
+    background-color: white;
+    padding: 40px;
+    border-radius: 0px;
+}
+#section p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 24px;
+    font-family: geneva;
+}
+
+#section1{
+    height: 550px;
+    background-color: bisque;
+}
+#banner{
+    height: 550px;
+    width: 100%;
+    border-radius: 0px;
+}
+#section2{
+    height: 400px;
+    background-color: brown;
+}
+#box1{
+    height: 300px;
+    width: 190px;
+    background-color: aquamarine;
+    float: left;
+    margin: 70px;
+    font-family: geneva;
+
+}
+#boxImage{
+    height: 180px;
+    background-color: blue;
+    overflow: hidden;
+}
+#boxContent{
+    height: 120px;
+    text-align: justify;
+    padding: 7px;
+    background-color: white;
+     font-family: geneva;
+
+}
+#boxImg{
+    height: 200px;
+    width: 100%;
+}
+#boxContent button{
+    background-color: #234567;
+    color:white;
+    height: 30px;
+    width: 140px;
+    margin: 10px;
+    border-width: 0px;
+}
+#boxImg:hover{
+    transition: 2s;
+    transform: scale(1.5);
+    /* transform: rotate(360deg); */
+}
+#section3{
+    height: 400px;
+    background-color: rgb(210, 220, 229);
+    padding: 40px;
+}
+
+#boximg1{
+    height: 250px;
+    width: 250px;
+   /* background-color: brown; */
+    float: left;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+#image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#boxContent1{
+    height: 270px;
+    width: 770px;
+    /*background-color: brown;*/
+    float: left;
+    margin: 70px;
+    padding: 20px;
+    font-size: large;
+    font-family: geneva;
+    text-align: justify;
+    line-height: 30px;
+    color: blueviolet;
+    
+}
+#contact{
+    height:400px;
+    padding: 40px;
+    background-color:lightseagreen;
+}
+#contactBox{
+    height: 300px;
+    width: 200px;
+    margin: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+    padding: 10px;
+    background-color: white;   
+}
+#contactMBox{
+    height: 320px;
+    width: 310px;
+    margin: 10px;
+    margin-top: 30px;
+    float: left;
+}
+iframe{
+    height: 320px;
+    width: 310px;
+}
+#contactBox ul li a{
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 18px;
+    color:black;
+}
+#contact h1{
+    color:white;
+}
+#footer{
+    padding: 10px;
+    font-size: 18px;
+}
+
+}
